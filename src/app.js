@@ -16,22 +16,18 @@ function generateExcuse() {
     switch (i){
       case 0:
         number = Math.floor(Math.random() * who.length);
-        console.log(number);
         word += who[number];
         break;
       case 1:
         number = Math.floor(Math.random() * action.length);
-        console.log(number);
         word += ' ' + action[number];
         break;
       case 2:
         number = Math.floor(Math.random() * what.length);
-        console.log(number);
         word += ' ' + what[number];
         break;
       case 3:
         number = Math.floor(Math.random() * when.length);
-        console.log(number);
         word += ' ' + when[number];
         break;
       default:
