@@ -1,5 +1,13 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: #e4ab76;
+}
+
+#header-title{
+    color: #664d03;
+}
+
+.excuse-generator-button{
+    background-color: #fcf368;
 }
